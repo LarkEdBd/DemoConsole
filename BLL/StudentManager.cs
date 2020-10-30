@@ -6,16 +6,16 @@ using System.Text;
 
 namespace BLL
 {
-    public class StudentBs : IStudentBs
+    public class StudentManager : IStudentManager
     {
 
-        private IStudentDb db;
+        private IStudentRepository db;
         private int studentIdCounter;
 
-        public StudentBs()
+        public StudentManager()
         {
             studentIdCounter = 1;
-            db = new StudentDb();
+            db = new StudentRepository();
         }
 
         public List<Student> GetStudents()

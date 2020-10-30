@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DAL
 {
-    public interface IStudentDb
+    public interface IStudentRepository
     {
         List<Student> GetStudents();
         void AddStudent(Student student);

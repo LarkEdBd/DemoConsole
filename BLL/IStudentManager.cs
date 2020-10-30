@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BLL
 {
-    public interface IStudentBs
+    public interface IStudentManager
     {
         List<Student> GetStudents();
         void AddStudent(Student student);

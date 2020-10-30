@@ -12,7 +12,7 @@ namespace DemoConsole
     {
         static void Main(string[] args)
         {
-            IStudentBs bs = new StudentBs();
+            IStudentManager bs = new StudentManager();
 
             Student student = new Student();
             student.FirstName = "Sazzadul";

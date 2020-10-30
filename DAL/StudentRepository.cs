@@ -6,11 +6,11 @@ using System.Text;
 
 namespace DAL
 {
-    public class StudentDb : IStudentDb
+    public class StudentRepository : IStudentRepository
     {
         private List<Student> _students;
 
-        public StudentDb()
+        public StudentRepository()
         {
             _students = new List<Student>();
         }
